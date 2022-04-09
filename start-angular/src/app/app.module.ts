@@ -14,6 +14,7 @@ import { CardTestComponent } from './components/card-test/card-test.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MatButtonModule } from '@angular/material/button';
     EmitterComponent,
     ChangeNumberComponent,
     CardTestComponent,
+    ListRenderComponent,
   ],
   imports: [
     BrowserModule,
