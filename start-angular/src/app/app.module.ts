@@ -10,6 +10,10 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsComponent } from './components/events/events.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { CardTestComponent } from './components/card-test/card-test.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -20,13 +24,17 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
     IfRenderComponent,
     EventsComponent,
     EmitterComponent,
-    ChangeNumberComponent
+    ChangeNumberComponent,
+    CardTestComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule,
+    MatCardModule,
+    MatButtonModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
