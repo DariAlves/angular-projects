@@ -15,6 +15,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     ChangeNumberComponent,
     CardTestComponent,
     ListRenderComponent,
+    PipesComponent,
   ],
   imports: [
     BrowserModule,
