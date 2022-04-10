@@ -16,8 +16,4 @@ export class MovieListService {
   getMovies(): Observable<Movie> {
     return this.http.get<Movie>(this.apiUrl);
   }
-
-  pagination() {
-    return this.page;
-  }
 }

@@ -1,11 +1,22 @@
-<h2>movies-list works!</h2>
-<div>
-  <!-- prettier-ignore -->
-  <div *ngFor="let movie of movies">
-    <p>Id#{{movie.id}}</p>
-    <p>Title: {{movie.original_title}}</p>
-    <img src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" alt="{{movie.original_title}}">
-    <!-- <p>Title: {{ movie.release_date }}</p> -->
+<div class="container">
+  <div *ngFor="let movie of movies" class="card">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>
+          {{ movie.original_title }}
+        </mat-card-title>
+      </mat-card-header>
+      <!-- prettier-ignore -->
+      <img mat-card-image
+      src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}"
+      alt="{{ movie.original_title }}"
+    />
+      <mat-card-subtitle>
+        {{ movie.release_date || "Em breve" }}
+      </mat-card-subtitle>
+      <mat-card-actions>
+        <button mat-button class="details">Detalhes</button>
+      </mat-card-actions>
+    </mat-card>
   </div>
-  <!-- <button (click)="showData()">Enviar</button> -->
 </div>

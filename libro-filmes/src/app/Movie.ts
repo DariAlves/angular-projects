@@ -1,6 +1,7 @@
 export interface Movie {
+  page: number;
   results: [];
-  id: number;
+  release_date?: any;
   original_title: string;
   poster_path: string;
 }
