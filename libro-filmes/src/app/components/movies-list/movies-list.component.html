@@ -6,11 +6,11 @@
           {{ movie.original_title }}
         </mat-card-title>
       </mat-card-header>
-      <!-- prettier-ignore -->
-      <img mat-card-image
-      src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}"
-      alt="{{ movie.original_title }}"
-    />
+      <img
+        mat-card-image
+        src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}"
+        alt="{{ movie.original_title }}"
+      />
       <mat-card-subtitle>
         {{ movie.release_date || "Em breve" }}
       </mat-card-subtitle>
