@@ -1,0 +1,15 @@
+<div class="container" *ngIf="movie">
+  <div class="card">
+    <img
+      src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}"
+      alt="{{ movie.original_title }}"
+    />
+
+    <div class="card-description">
+      <p class="title">{{ movie.original_title }}</p>
+      <p>{{ movie.overview }}</p>
+    </div>
+  </div>
+
+  <button mat-button class="button" routerLink="/movies">Voltar</button>
+</div>

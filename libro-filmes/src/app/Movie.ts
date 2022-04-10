@@ -1,4 +1,6 @@
 export interface Movie {
+  id: number;
+  overview: string;
   page: number;
   results: [];
   release_date?: any;
