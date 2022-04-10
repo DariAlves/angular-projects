@@ -1,0 +1,11 @@
+<h2>movies-list works!</h2>
+<div>
+  <!-- prettier-ignore -->
+  <div *ngFor="let movie of movies">
+    <p>Id#{{movie.id}}</p>
+    <p>Title: {{movie.original_title}}</p>
+    <img src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" alt="{{movie.original_title}}">
+    <!-- <p>Title: {{ movie.release_date }}</p> -->
+  </div>
+  <!-- <button (click)="showData()">Enviar</button> -->
+</div>
