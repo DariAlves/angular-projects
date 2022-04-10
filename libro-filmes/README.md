@@ -25,5 +25,12 @@
 ### Movie List
 ![screenshot](https://raw.githubusercontent.com/DariAlves/angular-projects/main/libro-filmes/prints/movie-list.png)
 
+### Movie List Mobile
+![screenshot](https://raw.githubusercontent.com/DariAlves/angular-projects/main/libro-filmes/prints/movie-list-mobile.png)
+
 ### Movie Detail
 ![screenshot](https://raw.githubusercontent.com/DariAlves/angular-projects/main/libro-filmes/prints/movie-detail.png)
+
+
+### Movie Detail Mobile
+![screenshot](https://raw.githubusercontent.com/DariAlves/angular-projects/main/libro-filmes/prints/movie-detail-mobile.png)
