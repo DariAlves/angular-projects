@@ -4,7 +4,7 @@ import { MovieDetailComponent } from './components/movie-detail/movie-detail.com
 import { MoviesListComponent } from './components/movies-list/movies-list.component';
 
 const routes: Routes = [
-  { path: 'movies', component: MoviesListComponent },
+  { path: '', component: MoviesListComponent },
   { path: 'movies/:id', component: MovieDetailComponent },
 ];
 
