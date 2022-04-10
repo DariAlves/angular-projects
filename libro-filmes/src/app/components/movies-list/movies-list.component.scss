@@ -13,7 +13,6 @@
   margin: 15px auto;
   display: flex;
 
-  background: #2d2d29;
   margin: 5px;
   text-transform: capitalize;
   border-radius: 10px;
@@ -22,6 +21,7 @@
 }
 
 mat-card {
+  background: #2d2d29;
   width: 100%;
   display: flex;
   align-items: center;
