@@ -16,11 +16,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://libro-filmes.netlify.app/">
+    <a href="https://libro-filmes.netlify.app/" target="_blank">
       Libro Filmes - Demo
     </a>
     <span> | </span>
-    <a href="https://www.themoviedb.org/">
+    <a href="https://www.themoviedb.org/" target="_blank">
       The Movie Database - API
     </a>
   </h3>
