@@ -14,6 +14,19 @@
   - [ ] Buscar filmes por gêneros
   - [ ] Outros
 
+<div align="center">
+  <h3>
+    <a href="https://libro-filmes.netlify.app/">
+      Libro Filmes - Demo
+    </a>
+    <span> | </span>
+    <a href="https://www.themoviedb.org/">
+      The Movie Database - API
+    </a>
+  </h3>
+</div>
+
+
 ### Referências
 
 [Angular](https://angular.io/docs)
