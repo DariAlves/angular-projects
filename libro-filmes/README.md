@@ -12,7 +12,7 @@
   - [ ] Criar um Buscador por título
   - [ ] Criar um paginação
   - [ ] Buscar filmes por gêneros
-  - [ ] Outros
+  - [ ] Estudar conceito de Observables
 
 <div align="center">
   <h3>
