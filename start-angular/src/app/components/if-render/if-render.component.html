@@ -1,9 +1,0 @@
-<div class="red-line">
-  <div *ngIf="canShow">If-Render Component</div>
-  <h2 *ngIf="name === 'Kakaroto'; else nameNotFound">Name: Kakaroto</h2>
-  <ng-template #nameNotFound>
-    <div>
-      <h2>Name not found</h2>
-    </div>
-  </ng-template>
-</div>
